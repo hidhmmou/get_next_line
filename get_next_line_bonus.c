@@ -14,7 +14,7 @@
 
 char	*get_next_line(int fd)
 {
-	static char	*temp[8192];
+	static char	*temp[512];
 	char		*line;
 	char		buffer[BUFFER_SIZE + 1];
 	int			ret;
